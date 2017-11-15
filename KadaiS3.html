@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="color18.css" />
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+        <header id="bar" class="mdl-layout__header mdl-layout__header-scroll">
+            <div class="mdl-layout__header-row">
+                <img src="pic/earth_black.png" width="50" height="50" />
+                <!--Title-->
+
+                <div class="mdl-layout-spacer"></div>
+
+                <i class="material-icons">search</i>
+                
+                <!--textfield-->
+                <form action="#">
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" id="search" />
+                        <label class="mdl-textfield__label" for="search">Search...</label>
+                    </div> 
+                </form>
+
+                
+                <!--person icon-->
+                <div class="mdl-navigation mdl-js-ripple-effect">
+                    <i class="material-icons">person</i>
+                </div>
+            </div>
+
+            <!--Tabs-->
+            <div class="mdl-layout__tab-bar mdl-sj-ripple-effect">
+                <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Tab 1</a>
+                <a href="#fixed-tab-2" class="mdl-layout__tab">Tab2</a>
+                <a href="#fixed-tab-3" class="mdl-layout__tab">Tab3</a>
+            </div>
+        </header>
+
+        <main class="mdl-layout__content">
+            <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+                <div class="page-content"></div>
+            </section>
+            <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+                <div class="page-content"></div>
+            </section>
+            <section class="mdl-layout__tab-panel" id="fixed-tab-3">
+                <div class="page-content"></div>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>

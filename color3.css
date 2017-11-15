@@ -1,0 +1,49 @@
+﻿
+/*bar*/
+#bar {
+    background-color:#3fb0ac;
+}
+
+/*タイトル*/
+.mdl-layout-title {
+    color:white;
+}
+
+/*アイコンサイズ*/
+.material-icons{
+    margin:8px;
+}
+
+/*main icon*/
+.mdl-layout__header-row img{
+    position:absolute;
+    left:50%;
+}
+
+/*textfield*/
+.mdl-textfield__input {
+    border-bottom: 2px solid #fae596;
+    box-sizing:border-box;
+    border-radius:21px;
+    background-color:white;
+}
+
+/*Search*/
+.mdl-textfield__label {
+    text-align:left;
+    margin-left:5px;
+    color:#424242;
+}
+
+/*クリック後ラベル*/
+.mdl-textfield__label:after{
+    border-radius:21px;
+    height:0;
+    bottom:20px;
+}
+
+/*クリック後の文字*/
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label{
+    color:#424242;
+}
+
