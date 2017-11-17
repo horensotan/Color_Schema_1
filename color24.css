@@ -1,0 +1,94 @@
+﻿
+/*bar*/ /*color*/
+#bar {
+    background-color:#FFFFFF;
+}
+
+/*タイトル
+.mdl-layout-title {
+    
+}
+    */
+
+/*all icon*/ /*icon color*/
+.material-icons{
+    margin:8px;
+    color:#E9B000;
+}
+
+/*main icon1*/ 
+.mdl-layout__header-row img{
+    position:absolute;
+    /*アイコン色を変えるなら画像変更する*/
+}
+
+/*main icon2*/ /*color*/
+#main-icon {
+    position:absolute;
+    left:45%;
+    padding-bottom:15px;
+    font-size:50px;
+    color:#E9B000;
+}
+
+/*textfield*/ /*secondary color[border] or color[background] */
+.mdl-textfield__input {
+    border-bottom: 2px solid #E24E42;
+    box-sizing:border-box;
+    border-radius:21px;
+    background-color:#FFFFFF;
+}
+
+/*Search label*/ /*color*/
+.mdl-textfield__label {
+    text-align:left;
+    margin-left:5px;
+    color:#EB6E80;
+}
+
+/*クリック後ラベル*/
+.mdl-textfield__label:after{
+    border-radius:21px;
+    height:0;
+    bottom:20px;
+}
+
+/*クリック後の文字*/ /*secondary color*/
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label{
+    color:#E24E42;
+}
+
+/*tab*/ /*color*/
+.mdl-layout__tab-bar{
+    background-color:#FFFFFF;
+}
+
+/*tab text*/ /*color*/
+.mdl-layout__tab-bar a{
+    color:#EB6E80;
+}
+
+/*tab text active*/ /*color*/
+.mdl-layout.is-upgraded .mdl-layout__tab.is-active{
+    color:#E24E42;
+}
+
+/*tab accent*/ /*secondary color*/
+.mdl-layout.is-upgraded .mdl-layout__tab.is-active::after{
+    background-color:#E24E42;
+}
+
+/*main*/
+.mdl-layout__content {
+    background-color:#E9B000;
+}
+
+/*文字入力時のtextlabel/cursor*/
+.mdl-layout__header{
+    color:#EB6E80;
+}
+
+/*文字入力後のfieldtext*/
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label{
+    color:#EB6E80;
+}

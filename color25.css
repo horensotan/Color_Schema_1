@@ -1,0 +1,89 @@
+﻿
+/*bar*/ /*color*/
+#bar {
+    background-color:#4484CE;
+}
+
+/*タイトル
+.mdl-layout-title {
+    
+}
+    */
+
+/*all icon*/ /*icon color*/
+.material-icons{
+    margin:8px;
+    color:#F9CF00;
+}
+
+/*main icon2*/ /*color*/
+#main-icon {
+    position:absolute;
+    left:45%;
+    padding-bottom:15px;
+    font-size:50px;
+    color:#F9CF00;
+}
+
+
+/*textfield*/ /*secondary color[border] or color[background] */
+.mdl-textfield__input {
+    border-bottom: 2px solid #F19F4D;
+    box-sizing:border-box;
+    border-radius:21px;
+    background-color:#FFFFFF;
+}
+
+/*Search label*/ /*color*/
+.mdl-textfield__label {
+    text-align:left;
+    margin-left:5px;
+    color:black;
+}
+
+/*クリック後ラベル*/
+.mdl-textfield__label:after{
+    border-radius:21px;
+    height:0;
+    bottom:20px;
+}
+
+/*クリック後のsearchlabel*/ /*secondary color*/
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label{
+    color:black;
+}
+
+/*文字入力時のcursor*/
+.mdl-layout__header{
+    color:#F9CF00;
+}
+
+/*文字入力後のsearchlabel*/
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label{
+    color:#F9CF00;
+}
+
+/*tab*/ /*color*/
+.mdl-layout__tab-bar{
+    background-color:#FFFFFF;
+}
+
+/*tab text*/ /*color*/
+.mdl-layout__tab-bar a{
+    color:black;
+}
+
+/*tab text active*/ /*color*/
+.mdl-layout.is-upgraded .mdl-layout__tab.is-active{
+    color:black;
+}
+
+/*tab accent*/ /*secondary color*/
+.mdl-layout.is-upgraded .mdl-layout__tab.is-active::after{
+    background-color:#F19F4D;
+}
+
+/*main*/
+.mdl-layout__content {
+    background-color:#D9D9D9;
+}
