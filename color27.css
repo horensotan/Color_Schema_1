@@ -1,19 +1,14 @@
 ﻿
 /*bar*/ /*color*/
 #bar {
-    background-color:#2F2FA2;
+    background-color:#CAE4DB;
 }
 
-/*タイトル
-.mdl-layout-title {
-    
-}
-    */
 
 /*all icon*/ /*icon color*/
 .material-icons{
     margin:8px;
-    color:#F64C72;
+    color:#00303F;
 }
 
 /*main icon2*/ /*color*/
@@ -22,23 +17,23 @@
     left:45%;
     padding-bottom:15px;
     font-size:50px;
-    color:#F64C72;
+    color:#DCAE1D;
 }
 
 
 /*textfield*/ /*secondary color[border] or color[background] */
 .mdl-textfield__input {
-    border-bottom: 2px solid #2F2FA2;
+    border-bottom: 2px solid #00303F;
     box-sizing:border-box;
     border-radius:21px;
-    background-color:#2F2FA2;
+    background-color:#CAE4DB;
 }
 
 /*Search label*/ /*color*/
 .mdl-textfield__label {
     text-align:left;
     margin-left:5px;
-    color:#F64C72;
+    color:#DCAE1D;
 }
 
 /*クリック後ラベル*/
@@ -50,40 +45,40 @@
 
 /*クリック後のsearchlabel*/ /*secondary color*/
 .mdl-textfield--floating-label.is-focused .mdl-textfield__label{
-    color:#F64C72;
+    color:#00303F;
 }
 
 /*文字入力時のcursor*/
 .mdl-layout__header{
-    color:#F5F5F5;
+    color:#DCAE1D;
 }
 
 /*文字入力後のsearchlabel*/
 .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label{
-    color:#FFFFFF;
+    color:#DCAE1D;
 }
 
 /*tab*/ /*color*/
 .mdl-layout__tab-bar{
-    background-color:#2F2FA2;
+    background-color:#00303F;
 }
 
-/*tab text*/ /*color*/
+/*tab label*/ /*color*/
 .mdl-layout__tab-bar a{
-    color:#0F1626;
+    color:#DCAE1D;
 }
 
 /*tabtext active*/ /*color*/
 .mdl-layout.is-upgraded .mdl-layout__tab.is-active{
-    color:#F5F5F5;
+    color:#DCAE1D;
 }
 
 /*tab accent*/ /*secondary color*/
 .mdl-layout.is-upgraded .mdl-layout__tab.is-active::after{
-    background-color:#0F1626;
+    background-color:#DCAE1D;
 }
 
 /*main*/
 .mdl-layout__content {
-    background-color:#2F2FA2;
+    background-color:#CAE4DB;
 }
